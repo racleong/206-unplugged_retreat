@@ -197,7 +197,7 @@ header figure {
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   flex-basis: 60%;
@@ -370,7 +370,7 @@ About Page
 .map figure {
   width: 100%;
   height: 0;
-  padding-bottom: 80%;
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
@@ -538,7 +538,6 @@ FAQ Page
   /*Header*/
   header {
     padding: 33px 0;
-    margin: 0;
     justify-content: space-around;
   }
 
@@ -553,15 +552,19 @@ FAQ Page
 
   header nav {
     width: 20%;
+    justify-content: flex-end;
   }
 
   header nav ul {
-    margin: 0;
-    justify-content: space-between;
+    justify-content: flex-end;
+  }
+
+  header nav ul li {
+    padding-left: 50px;
   }
 
   .header-divider {
-    display: none;
+   display: none;
   }
 
   /*Hero*/
@@ -671,6 +674,10 @@ FAQ Page
     width: 50%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%
   }
@@ -770,10 +777,17 @@ FAQ Page
 
 
   /*=======About Page=======*/
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .mission h2 {
+    margin-top: 0px;
   }
   
   .contact-content h4 {
