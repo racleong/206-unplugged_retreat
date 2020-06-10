@@ -227,15 +227,25 @@ footer p {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  width: 230px;
 }
 
 footer .social-icons p {
+  border-radius: 50%;
+  background-color: #527158;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 
 footer .content-wrapper {
   flex-basis: 55%;
